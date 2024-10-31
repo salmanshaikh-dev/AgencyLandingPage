@@ -1,12 +1,35 @@
+.ul-header {
+    display: none;
+    cursor: pointer;
+}
+
+.wrapper {
+    background-image: url(/images/mobile/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+.img-logo {
+    cursor: pointer;
+}
 #header {
     display: flex;
     justify-content: space-between;
-    padding-block: 20px;
-    padding-inline: 15px;
-    background-image: url(/images/mobile/image-header.jpg);
-    height: 650px;
-    background-position: center;
-    background-size: cover;
+    align-items: center;
+    padding: 25px 20px;
+}
+.img-menu-outline {
+    cursor: pointer;
+}
+h1 {
+    font-size: 2.3em;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 45px;
+    letter-spacing: .2em;
+}
 
-
+.img-arrow {
+    margin-bottom: 120px;
 }
