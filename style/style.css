@@ -17,6 +17,7 @@
 @import url(fonts/fonts.css);
 @import url(header.css);
 @import url(footer.css);
+@import url(hero.css);
 
 body {
     margin: 0;
